@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Producto</title>
+    <link rel="stylesheet" type="text/css" href="./Styles/productos.css" />
+    <script src="./js/ProductoManage.js"></script>
+</head>
+
+<body>
+    <nav id="navbar">
+        <div class="navigation">
+            <a href="https://www.ejemplo.com">Inicio</a>
+
+
+        </div>
+        <div class="navigation">
+            <a href="https://www.ejemplo.com">Productos</a>
+
+        </div>
+        <div class="navigation">
+            <a href="https://www.ejemplo.com">Registrate</a>
+        </div>
+        <div class="search-bar">
+            <input type="text" id="productIdInput" placeholder="Ingrese el ID del producto">
+            <button id="searchButton"
+                onclick="getProductoCompleteInfo(document.getElementById('productIdInput').value)">Search</button>
+
+        </div>
+    </nav>
+
+
+
+
+    <div class=" producto">
+        <div class="imgDiv">
+            <img id="productoImagen" src="https://trolleymate.co.uk/assets/img/error_404.jpeg" alt="Producto 1">
+        </div>
+
+        <div class="info">
+            <div class="titulo">
+                <h1 id="productoTitulo">Title</h1>
+            </div>
+            <div class="precio-promocion">
+                <div class="precio">
+                    <h3 id="productoPrecio"><span>$</span>0</h3>
+                </div>
+                <div class="promocion">
+                    <h3>En promoción</h3>
+                </div>
+            </div>
+            <div class="descripcion">
+                <p id="productoDescripcion">Descripcion</p>
+            </div>
+            <div class="cantidad_disponible">
+                <h3 id="productoCantidad">0</h3>
+            </div>
+            <div class="cantidad">Disponible(s)</div>
+
+        </div>
+        <div class="triangle"></div>
+    </div>
+    <div id="popup" class="popup">
+        <span id="cerrar">&times;</span>
+        <img id="popupImg" src="" alt="Imagen del producto" width="1280" height="720">
+    </div>
+
+    <div id="sombra" class="sombra"></div>
+
+
+
+
+
+</body>
+
+</html>

@@ -1,0 +1,22 @@
+{
+    "Productos": [
+        {
+            "ProductId": 1,
+            "imagen": "https://cdn.shopify.com/s/files/1/0492/2458/1274/products/supermercados_la_vaquita_supervaquita_detergente_ariel_1000gr_regular_cuidado_de_la_ropa_700x700.jpg?v=1620655004",
+            "titulo": "Jabon de ropa ariel x 5kgs",
+            "precio": "49.900",
+            "promocion": true,
+            "descripcion": "Detergente En Polvo Ariel 5000 Gr Contenido: 5000 Gr Formato: Polvo Referencia: Triple Poder",
+            "cantidad": 4
+        },
+        {
+            "ProductId": 2,
+            "imagen": "https://copservir.vtexassets.com/arquivos/ids/768175-1600-auto?v=637950291690770000&width=1600&height=auto&aspect=true",
+            "titulo": "Clorox regular 3800ml",
+            "precio": "18.800",
+            "promocion": false,
+            "descripcion": "Cloro especial para todo de tipo de implementacion",
+            "cantidad": 3
+        }
+    ]
+}
