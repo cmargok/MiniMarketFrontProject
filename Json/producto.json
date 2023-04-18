@@ -17,6 +17,15 @@
             "promocion": false,
             "descripcion": "Cloro especial para todo de tipo de implementacion",
             "cantidad": 3
+        },
+        {
+            "ProductId": 2,
+            "imagen": "https://copservir.vtexassets.com/arquivos/ids/768175-1600-auto?v=637950291690770000&width=1600&height=auto&aspect=true",
+            "titulo": "Clorox regular 3800ml",
+            "precio": "18.800",
+            "promocion": false,
+            "descripcion": "Cloro especial para todo de tipo de implementacion",
+            "cantidad": 3
         }
     ]
 }
