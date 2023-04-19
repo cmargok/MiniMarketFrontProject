@@ -1,3 +1,10 @@
+
+const urlParams = new URLSearchParams(window.location.search);
+const productId = urlParams.get("id");
+getProductoCompleteInfo(productId);
+
+
+
 function getProductoCompleteInfo(id) {
     fetch(`http://localhost:3000/Productos?ProductId=${id}`)
         .then(response => response.json())
@@ -59,6 +66,8 @@ function MapToProducto(JsonData) {
     console.log(producto);
     return producto;
 }
+
+
 window.onload = function () {
     const img = document.getElementById('productoImagen');
     const popup = document.getElementById('popup');

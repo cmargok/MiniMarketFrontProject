@@ -1,0 +1,267 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    max-width: 1920px;
+    margin: 0 auto;
+}
+
+
+a {
+    text-decoration: none;
+}
+
+
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0px 8px 5px rgba(133, 133, 133, 0.3);
+}
+
+header img {
+    height: 50px;
+}
+
+header h1 {
+    font-size: 28px;
+}
+
+
+
+
+#navbar {
+    display: flex;
+    margin-top: 20px;
+    width: 85%;
+    border-top: none;
+    border-bottom: 7px double;
+    border-left: none;
+    border-right: none;
+    box-shadow: 0px 8px 5px rgba(133, 133, 133, 0.3);
+    animation: neon-border 3s infinite;
+}
+
+
+.search-bar,
+.navigation {
+    display: flex;
+    align-items: center;
+    background-color: rgba(227, 230, 232, 1);
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+    font-size: 25px;
+    margin: 0;
+}
+
+.search-bar {
+    flex-grow: 0.5;
+}
+
+.navigation a {
+    color: rgb(108, 112, 117);
+}
+
+.navigation a:hover {
+    color: rgb(58, 80, 107);
+}
+
+
+
+
+#productIdInput {
+    border: none;
+    background-color: grey;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    outline: none;
+    flex-grow: 1;
+
+}
+
+#productIdInput::placeholder {
+    color: #fff;
+}
+
+#productIdInput:focus::placeholder {
+    opacity: 0;
+}
+
+#searchButton {
+    border: none;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    transition: background-color 0.8s ease-in-out;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-grow: 1;
+    font-size: 18px;
+}
+
+.fa-search {
+    font-size: 20px;
+    color: #fff;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+#searchButton:hover {
+    color: #ffffff;
+    background-color: grey;
+}
+
+#searchButton:hover .fa-search {
+    transform: scale(1.2);
+
+}
+
+
+
+@keyframes bluered-border {
+    0% {
+        border-image: linear-gradient(to right, #ff0000, #0000ff) 1;
+    }
+
+    50% {
+        border-image: linear-gradient(to right, #0000ff, #ff0000) 1;
+    }
+
+    100% {
+        border-image: linear-gradient(to right, #ff0000, #0000ff) 1;
+    }
+}
+
+
+@keyframes neon-border {
+    0% {
+        border-image: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00) 1;
+    }
+
+    50% {
+        border-image: linear-gradient(to right, #f0f, #0ff, #00f, #f00, #ff0, #0f0, #f0f) 1;
+    }
+
+    100% {
+        border-image: linear-gradient(to right, #f00, #ff0, #0f0, #0ff, #00f, #f0f, #f00) 1;
+    }
+}
+
+
+
+/* Botón de iniciar sesión */
+.iniciar-sesion {
+    position: fixed;
+    top: 20px;
+    right: 2%;
+    display: flex;
+    align-items: center;
+}
+
+#boton-iniciar-sesion {
+    display: flex;
+    align-items: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+#boton-iniciar-sesion img {
+    margin-right: 10px;
+}
+
+/* Modal de iniciar sesión */
+.modal-iniciar-sesion {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #fff;
+    padding: 20px;
+    z-index: 1;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 5px;
+}
+
+.modal-iniciar-sesion label {
+    display: block;
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+.modal-iniciar-sesion input {
+    display: block;
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.modal-iniciar-sesion input[type="submit"] {
+    background-color: #2ecc71;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border-radius: 5px;
+}
+
+.modal-iniciar-sesion input[type="submit"]:hover {
+    background-color: #27ae60;
+}
+
+/* Mostrar modal cuando se hace clic en el botón */
+.iniciar-sesion:hover .modal-iniciar-sesion {
+    display: block;
+}
+
+
+
+
+
+
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer a {
+    color: #fff;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #ccc;
+    text-decoration: underline;
+}
+
+footer p {
+    margin: 0;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.footer-links a {
+    margin: 0 10px;
+}
+
+.footer-madeby {
+    margin-top: 20px;
+}

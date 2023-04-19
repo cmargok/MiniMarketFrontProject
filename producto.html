@@ -1,22 +1,46 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
     <meta charset="UTF-8">
     <title>Producto</title>
-    <link rel="stylesheet" type="text/css" href="./Styles/productos.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/productos.css" />
+    <link rel="stylesheet" type="text/css" href="Styles/transversal.css">
     <script src="./js/ProductoManage.js"></script>
 </head>
 
 <body>
+    <header>
+        <div class="logo">
+            <img src="Img/logo.png" alt="Logo de MiniMarket">
+        </div>
+        <div class="nombre-tienda">
+            <h1>MiniMarket</h1>
+        </div>
+        <div class="iniciar-sesion">
+            <a href="#" id="boton-iniciar-sesion">
+                <img src="Img/sing in logo.png" alt="Sign In"> Iniciar sesión</a>
+            <div class="modal-iniciar-sesion">
+                <form>
+                    <label for="usuario">Usuario:</label>
+                    <input type="text" id="usuario" name="usuario">
+                    <label for="contrasenia">Contraseña:</label>
+                    <input type="password" id="contrasenia" name="contrasenia">
+                    <input type="submit" value="Iniciar sesión">
+                </form>
+            </div>
+        </div>
+
+    </header>
     <nav id="navbar">
         <div class="navigation">
-            <a href="https://www.ejemplo.com">Inicio</a>
+            <a href="Index.html">Inicio</a>
 
 
         </div>
         <div class="navigation">
-            <a href="https://www.ejemplo.com">Productos</a>
+            <a href="Catalogo.html">Productos</a>
 
         </div>
         <div class="navigation">
@@ -33,7 +57,7 @@
 
 
 
-    <div class=" producto">
+    <div class="producto contenido">
         <div class="imgDiv">
             <img id="productoImagen" src="https://trolleymate.co.uk/assets/img/error_404.jpeg" alt="Producto 1">
         </div>
@@ -61,6 +85,9 @@
         </div>
         <div class="triangle"></div>
     </div>
+
+
+
     <div id="popup" class="popup">
         <span id="cerrar">&times;</span>
         <img id="popupImg" src="" alt="Imagen del producto" width="1280" height="720">
@@ -69,7 +96,10 @@
     <div id="sombra" class="sombra"></div>
 
 
-
+    <footer>
+        <p>© Derechos de autor - MiniMarket. Todos los derechos reservados.</p>
+        <p>Hecho por Cmargok</p>
+    </footer>
 
 
 </body>

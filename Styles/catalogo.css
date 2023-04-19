@@ -1,0 +1,39 @@
+.product {
+    width: 25%;
+    padding: 20px;
+    box-sizing: border-box;
+    float: left;
+}
+
+.product img {
+    width: 100%;
+    height: auto;
+}
+
+.product h3 {
+    margin-top: 10px;
+}
+
+.product p {
+    margin-top: 5px;
+    font-weight: bold;
+}
+
+
+
+.contenido {
+
+    display: flex;
+    width: 70%;
+    height: auto;
+    min-height: 700px;
+    padding: 20px 50px 1.5em 50px;
+    margin: 10px auto;
+    margin-top: 1px;
+    border-top: none;
+    border-bottom: 6px double;
+    border-left: none;
+    border-right: none;
+    animation: bluered-border 1s infinite;
+    overflow: hidden;
+}
