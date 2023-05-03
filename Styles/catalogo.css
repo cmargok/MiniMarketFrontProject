@@ -3,6 +3,8 @@
     padding: 20px;
     box-sizing: border-box;
     float: left;
+    transition: box-shadow 0.4s ease-in-out;
+    border-radius: 5%;
 }
 
 .product img {
@@ -20,6 +22,12 @@
 }
 
 
+.product:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
+
+
 
 .contenido {
 
@@ -27,7 +35,7 @@
     width: 70%;
     height: auto;
     min-height: 700px;
-    padding: 20px 50px 1.5em 50px;
+    padding: 20px 50px 4em 50px;
     margin: 10px auto;
     margin-top: 1px;
     border-top: none;
@@ -36,4 +44,5 @@
     border-right: none;
     animation: bluered-border 1s infinite;
     overflow: hidden;
+    margin-bottom: 3em;
 }

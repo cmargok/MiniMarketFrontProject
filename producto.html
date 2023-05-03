@@ -8,6 +8,7 @@
     <link rel="stylesheet" type="text/css" href="Styles/productos.css" />
     <link rel="stylesheet" type="text/css" href="Styles/transversal.css">
     <script src="./js/ProductoManage.js"></script>
+    <script src="./js/LoadDataUser.js"></script>
 </head>
 
 <body>
@@ -18,34 +19,35 @@
         <div class="nombre-tienda">
             <h1>MiniMarket</h1>
         </div>
-        <div class="iniciar-sesion">
-            <a href="#" id="boton-iniciar-sesion">
-                <img src="Img/sing in logo.png" alt="Sign In"> Iniciar sesión</a>
-            <div class="modal-iniciar-sesion">
-                <form>
-                    <label for="usuario">Usuario:</label>
-                    <input type="text" id="usuario" name="usuario">
-                    <label for="contrasenia">Contraseña:</label>
-                    <input type="password" id="contrasenia" name="contrasenia">
-                    <input type="submit" value="Iniciar sesión">
-                </form>
+
+        <div class="LoginRegister" style="display: flex; ">
+            <div class="navigation" id="LoginNavButton" style=" margin-right: 1em;">
+                <a href="login.html">Iniciar Sesion</a>
+            </div>
+
+            <div class="navigation" id="RegisterNavButton">
+                <a href="Registro.html">Registrarme</a>
             </div>
         </div>
 
+        <span id="username-span" style="display: none;"></span>
+        <span id="logOut" style="display: none;">
+            <button onclick="logOut()">Cerrar sesión</button>
+        </span>
+
     </header>
     <nav id="navbar">
+
         <div class="navigation">
             <a href="Index.html">Inicio</a>
-
-
         </div>
+
         <div class="navigation">
             <a href="Catalogo.html">Productos</a>
+        </div>
 
-        </div>
-        <div class="navigation">
-            <a href="https://www.ejemplo.com">Registrate</a>
-        </div>
+
+
         <div class="search-bar">
             <input type="text" id="productIdInput" placeholder="Ingrese el ID del producto">
             <button id="searchButton"
@@ -95,7 +97,7 @@
 
     <div id="sombra" class="sombra"></div>
 
-
+    <div id="sombra2" class="sombra2"></div>
     <footer>
         <p>© Derechos de autor - MiniMarket. Todos los derechos reservados.</p>
         <p>Hecho por Cmargok</p>

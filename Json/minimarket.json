@@ -1,0 +1,127 @@
+{
+  "Productos": [
+    {
+      "ProductId": 1,
+      "imagen": "Img/Productos/ariel5000ml.png",
+      "titulo": "Jabon de ropa ariel x 5kgs",
+      "precio": "49.900",
+      "promocion": true,
+      "descripcion": "Detergente En Polvo Ariel 5000 Gr Contenido: 5000 Gr Formato: Polvo Referencia: Triple Poder",
+      "cantidad": 4
+    },
+    {
+      "ProductId": 2,
+      "imagen": "Img/Productos/cloro.png",
+      "titulo": "Clorox regular 3800ml",
+      "precio": "18.800",
+      "promocion": false,
+      "descripcion": "Cloro especial para todo de tipo de implementacion",
+      "cantidad": 3
+    },
+    {
+      "ProductId": 3,
+      "imagen": "Img/Productos/arros1kg.png",
+      "titulo": "Arroz diana x 1kg",
+      "precio": "4.590",
+      "promocion": true,
+      "descripcion": "El mejor arroz para el almuerzo y las comidas en general",
+      "cantidad": 55
+    },
+    {
+      "ProductId": 4,
+      "imagen": "Img/Productos/aceite.png",
+      "titulo": "Aceite Familia Multiusos GOURMET 900 ml",
+      "precio": "19.350",
+      "promocion": true,
+      "descripcion": "Mantengalo alejado de la luz directa",
+      "cantidad": 12
+    },
+    {
+      "ProductId": 5,
+      "imagen": "Img/Productos/papelh.png",
+      "titulo": "Papel Higienico Mega FAMILIA 372 mts",
+      "precio": "25.100",
+      "promocion": true,
+      "descripcion": "PRODUCTOS FAMILIA S.A papel para la cola",
+      "cantidad": 6
+    },
+    {
+      "ProductId": 6,
+      "imagen": "Img/Productos/sal.png",
+      "titulo": "Sal Refinada REFISAL 1000 gr",
+      "precio": "2.140",
+      "promocion": false,
+      "descripcion": "Sal para todo lo que necesite, con mucha pureza",
+      "cantidad": 13
+    },
+    {
+      "ProductId": 7,
+      "imagen": "Img/Productos/huevos.png",
+      "titulo": "Huevo Rojo A X 30 SMN 30 und",
+      "precio": "15.730",
+      "promocion": true,
+      "descripcion": "Cubeta de huevos x 30 unidades tamaño A",
+      "cantidad": 25
+    },
+    {
+      "ProductId": 8,
+      "imagen": "Img/Productos/harina.png",
+      "titulo": "HARINA MAIZ BLANCA PAN 1000 gr",
+      "precio": "4.990",
+      "promocion": false,
+      "descripcion": "Harina de trigo y maiz",
+      "cantidad": 11
+    },
+    {
+      "ProductId": 9,
+      "imagen": "Img/Productos/salchichas.png",
+      "titulo": "Salchicha Ranchera X 230",
+      "precio": "10.300",
+      "promocion": false,
+      "descripcion": "Salchichas precocidas perfectas para todo tipo de platillo que lleve salchichas",
+      "cantidad": 33
+    },
+    {
+      "ProductId": 10,
+      "imagen": "Img/Productos/saltinas.png",
+      "titulo": "GALLETAS X 6 TACOS SALTIN NOEL 531 gr",
+      "precio": "7.260",
+      "promocion": true,
+      "descripcion": "Galletas de soda",
+      "cantidad": 41
+    },
+    {
+      "ProductId": 11,
+      "imagen": "Img/Productos/pasta.png",
+      "titulo": "Spaguetti Clásico DORIA 1000 gr",
+      "precio": "6.300",
+      "promocion": false,
+      "descripcion": "Pasta Tradicional",
+      "cantidad": 53
+    },
+    {
+      "ProductId": 12,
+      "imagen": "Img/Productos/quesocrema.png",
+      "titulo": "Queso Crema Cremosino ALPINA 200 gr",
+      "precio": "6.950",
+      "promocion": false,
+      "descripcion": "Queso crema salido de la vaca",
+      "cantidad": 13
+    }
+  ],
+  "Usuarios": [
+    {
+      "username": "kevin camargo",
+      "email": "kevcam@gmail.com",
+      "password": "a0f6de05cb3269c888e6fbe14b7316c1406d52ac09e46ebeac42fce0b6696d63",
+      "id": 1
+    }
+  ],
+  "sesiones": [
+    {
+      "usuario_id": 1,
+      "token": "MItOKENsITO00¿¿99#",
+      "id": 1
+    }
+  ]
+}

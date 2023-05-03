@@ -54,6 +54,7 @@ header h1 {
     flex-grow: 1;
     font-size: 25px;
     margin: 0;
+    transition: box-shadow 0.2s ease-in-out;
 }
 
 .search-bar {
@@ -66,9 +67,13 @@ header h1 {
 
 .navigation a:hover {
     color: rgb(58, 80, 107);
+
 }
 
-
+.navigation:hover {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
+}
 
 
 #productIdInput {
@@ -154,75 +159,7 @@ header h1 {
 
 
 
-/* Botón de iniciar sesión */
-.iniciar-sesion {
-    position: fixed;
-    top: 20px;
-    right: 2%;
-    display: flex;
-    align-items: center;
-}
 
-#boton-iniciar-sesion {
-    display: flex;
-    align-items: center;
-    color: #fff;
-    text-decoration: none;
-    font-size: 18px;
-}
-
-#boton-iniciar-sesion img {
-    margin-right: 10px;
-}
-
-/* Modal de iniciar sesión */
-.modal-iniciar-sesion {
-    display: none;
-    position: fixed;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-    background-color: #fff;
-    padding: 20px;
-    z-index: 1;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    border-radius: 5px;
-}
-
-.modal-iniciar-sesion label {
-    display: block;
-    margin-bottom: 5px;
-    font-size: 16px;
-}
-
-.modal-iniciar-sesion input {
-    display: block;
-    width: 100%;
-    padding: 8px;
-    margin-bottom: 10px;
-    border-radius: 5px;
-    border: 1px solid #ccc;
-    font-size: 16px;
-}
-
-.modal-iniciar-sesion input[type="submit"] {
-    background-color: #2ecc71;
-    color: #fff;
-    border: none;
-    padding: 10px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-    border-radius: 5px;
-}
-
-.modal-iniciar-sesion input[type="submit"]:hover {
-    background-color: #27ae60;
-}
-
-/* Mostrar modal cuando se hace clic en el botón */
-.iniciar-sesion:hover .modal-iniciar-sesion {
-    display: block;
-}
 
 
 
@@ -264,4 +201,23 @@ footer p {
 
 .footer-madeby {
     margin-top: 20px;
+}
+
+#logOut button {
+    display: flex;
+    align-items: center;
+    background-color: rgba(227, 230, 232, 1);
+    padding: 10px;
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.3);
+    flex-grow: 1;
+    font-size: 25px;
+    margin: 0;
+    border: none;
+    transition: box-shadow 0.4s ease-in-out;
+}
+
+#logOut button:hover {
+    color: rgb(58, 80, 107);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 5%;
 }

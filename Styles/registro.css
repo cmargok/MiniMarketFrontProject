@@ -1,0 +1,62 @@
+h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-top: 2em;
+}
+
+form {
+    margin-top: 2.5em;
+    margin-bottom: 2.5em;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+button[type="submit"] {
+    display: block;
+    width: 100%;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.2s ease-in-out;
+}
+
+button[type="submit"]:hover {
+    background-color: #555;
+}
+
+/* Estilos específicos para el formulario de registro */
+
+.registration-form {
+    width: 50%;
+    text-align: center;
+}
+
+.registration-form__title {
+    margin-bottom: 20px;
+}
+
+.registration-form__message {
+    margin-bottom: 20px;
+    color: green;
+    font-weight: bold;
+}
