@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+
 <html>
 
 <head>
@@ -18,6 +19,7 @@
         <div class="nombre-tienda">
             <h1>MiniMarket</h1>
         </div>
+
         <div class="LoginRegister" style="display: flex; ">
             <div class="navigation" id="LoginNavButton" style=" margin-right: 1em;">
                 <a href="login.html">Iniciar Sesion</a>
@@ -27,10 +29,12 @@
                 <a href="Registro.html">Registrarme</a>
             </div>
         </div>
+
         <span id="username-span" style="display: none;"></span>
         <span id="logOut" style="display: none;">
             <button onclick="logOut()">Cerrar sesión</button>
         </span>
+
     </header>
     <nav id="navbar">
 
@@ -41,12 +45,20 @@
         <div class="navigation">
             <a href="Catalogo.html">Productos</a>
         </div>
+
+
+
         <div class="search-bar">
             <input type="text" id="productIdInput" placeholder="Ingrese el ID del producto">
             <button id="searchButton"
                 onclick="getProductoCompleteInfo(document.getElementById('productIdInput').value)">Search</button>
+
         </div>
     </nav>
+
+
+
+
     <div class="producto contenido">
         <div class="imgDiv">
             <img id="productoImagen" src="https://trolleymate.co.uk/assets/img/error_404.jpeg" alt="Producto 1">
@@ -75,10 +87,14 @@
         </div>
         <div class="triangle"></div>
     </div>
+
+
+
     <div id="popup" class="popup">
         <span id="cerrar">&times;</span>
         <img id="popupImg" src="" alt="Imagen del producto" width="1280" height="720">
     </div>
+
     <div id="sombra" class="sombra"></div>
 
     <div id="sombra2" class="sombra2"></div>
@@ -86,6 +102,8 @@
         <p>© Derechos de autor - MiniMarket. Todos los derechos reservados.</p>
         <p>Hecho por Cmargok</p>
     </footer>
+
+
 </body>
 
 </html>

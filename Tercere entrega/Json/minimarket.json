@@ -127,12 +127,6 @@
       "email": "mariaj@gmail.com",
       "password": "359ee8d482d3cac0fdffb2b83df30b9aabb2f265896ec61f93bbc94d77115a67",
       "id": 3
-    },
-    {
-      "username": "juliano gomez",
-      "email": "julianoG@gmail.com",
-      "password": "359ee8d482d3cac0fdffb2b83df30b9aabb2f265896ec61f93bbc94d77115a67",
-      "id": 4
     }
   ],
   "sesiones": [
@@ -150,11 +144,6 @@
       "usuario_id": 3,
       "token": "MItOKENsITO00¿¿99#",
       "id": 3
-    },
-    {
-      "usuario_id": 4,
-      "token": "MItOKENsITO00¿¿99#",
-      "id": 4
     }
   ]
 }

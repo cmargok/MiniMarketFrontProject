@@ -1,0 +1,31 @@
+.contenido {
+
+    display: flex;
+    width: 70%;
+    height: 700px;
+    padding: 20px 50px 1.5em 50px;
+    margin: 10px auto;
+    margin-top: 1px;
+    border-top: none;
+    border-bottom: 6px double;
+    border-left: none;
+    border-right: none;
+    animation: bluered-border 1s infinite;
+    overflow: hidden;
+}
+
+.slider--inner {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    transition: all 3s ease-in-out;
+
+
+}
+
+.mim {
+    width: 1600px;
+    height: 700px;
+    object-fit: contain;
+    margin: 0 50px;
+}
